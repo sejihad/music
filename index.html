@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <!-- mobile menu section  -->
+    <div class="mobile-menu">
+        <div class="nav-close">
+            <i class="ri-close-line"></i>
+        </div>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Reviews</a></li>
+        </ul>
+    </div>
+
+    <!-- header section -->
+    <header class="header-section">
+
+        <nav class="nav">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="">
+                <h3>Lautspecher</h3>
+            </div>
+            <ul class="menu">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+            <div class="profile">
+                <h3>Shop</h3>
+                <img src="./assets/img/profile.png" alt="">
+            </div>
+            <div class="toggle-nav">
+                <i class="ri-align-justify"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- hero section -->
+    <section class="hero-section">
+
+        <h1>pure aud<span style="color: rgb(160, 83, 83);">i</span>o</h1>
+        <p class="hero-p">Elevate your listening experience, bringing music to life</p>
+        <div class="speaker-section">
+            <div class="speaker-section-top">
+                <div class="largeimage-left">
+                    <p class="reviews">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </p>
+                    <p class="reviews-desc">"Crystal clear sound,
+                        experience every note and beat with exceptional clarity."
+                    </p>
+                </div>
+                <div class="largeimage">
+                    <img src="./assets/img/speaker1.png" alt="">
+                </div>
+                <div class="largeimage-right">
+                    <p class="details-icons">
+                        <i class="ri-wifi-fill"></i>
+                        <i class="ri-battery-charge-fill"></i>
+                        <i class="ri-bluetooth-line"></i>
+                    </p>
+                    <p class="details-desc">Speakers for every occasion with crystal clear sound
+                    </p>
+                </div>
+            </div>
+
+            <div class="speaker-section-bottom">
+                <div class="thumbnail-wrapper">
+                    <span class="arrow left-arrow" onclick="prevImages()">&#10094;</span>
+                    <div class="thumbnail-container">
+                        <img src="./assets/img/speaker1.png" alt="Image 1" class="thumbnail" onclick="showImage(0)">
+                        <img src="./assets/img/speaker2.png" alt="Image 2" class="thumbnail" onclick="showImage(1)">
+                        <img src="./assets/img/speaker3.png" alt="Image 3" class="thumbnail" onclick="showImage(2)">
+                        <img src="./assets/img/speaker4.png" alt="Image 4" class="thumbnail" onclick="showImage(3)">
+
+                    </div>
+                    <span class="arrow right-arrow" onclick="nextImages()">&#10095;</span>
+                </div>
+            </div>
+            <!-- try section -->
+            <div class="try-section">
+                <div class="scroll-wrapper">
+
+
+                    <!-- Repeat content for continuous scrolling -->
+                    <div class="try">
+                        <img src="./assets/img/logo.png" alt="">
+                        <h3>try now</h3>
+                    </div>
+                    <div class="try">
+                        <img src="./assets/img/logo.png" alt="">
+                        <h3>try now</h3>
+                    </div>
+                    <div class="try">
+                        <img src="./assets/img/logo.png" alt="">
+                        <h3>try now</h3>
+                    </div>
+                    <div class="try">
+                        <img src="./assets/img/logo.png" alt="">
+                        <h3>try now</h3>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- who we are  -->
+    <section class="who-we-are-section">
+        <div class="w-w-a-left">
+            <div class="w-left-top">
+                <h1>who we are</h1>
+                <p>Our commitment to innovation, craftsmanship, and a deep appreciation for music drive us to design and
+                    produce speakers that exceed your expectations. Whether you're and audiophile or a casual music
+                    enthusiast.</p>
+            </div>
+            <div class="w-left-bottom">
+                <h1>our product</h1>
+                <div class="orange-ball"></div>
+                <p>Elevate your audio experience with our range of permium speakers. Each speaker is a harmonious blend
+                    of cutting-edge technolody and sleek design, meticulously crafted to deliver unparalledled quality.
+                </p>
+            </div>
+        </div>
+        <div class="w-w-a-right">
+            <div class="w-right-top">
+                <div class="orange-ball"></div>
+                <p>At Lautspecher, we are passonate about the art of sound. With a rich history in audio engeneering,
+                    we've dedicated ourselves to creating audio speakers that deliver and unparalledled listening
+                    experience</p>
+                <img src="./assets/img/speaker4.png" alt="">
+            </div>
+            <div class="w-right-bottom">
+                <ul>
+                    <li><a href="#">Vintage Speakers</a></li>
+                    <li><a href="#">Bookshelf Speakers</a></li>
+                    <li><a href="#">Gaming Speakers</a></li>
+                    <li><a href="#">Custom Speakers</a></li>
+                    <li><a href="#">DIY Speakers</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- our tech -->
+    <section class="our-tech-section">
+        <div class="our-tech-inner">
+            <img class="o-t-i-top-img" src="./assets/img/speaker2.png" alt="">
+            <div class="our-tech-content">
+                <div class="our-tech-left">
+                    <h1>our tech</h1>
+                    <p>Our commitment to innovation, craftsmanship, and a deep appreciation for music drive us to design
+                        and
+                        produce speakers that exceed your expectations. Whether you're and audiophile or a casual music
+                        enthusiast.</p>
+                </div>
+                <div class="our-tech-right">
+                    <div class="orange-ball"></div>
+                    <p>Elevate your audio experience with our range of permium speakers. Each speaker is a harmonious
+                        blend
+                        of cutting-edge technolody and sleek design, meticulously crafted to deliver unparalledled
+                        quality
+                    </p>
+                </div>
+            </div>
+            <img class="o-t-i-bottom-img" src="./assets/img/speaker2.png" alt="">
+            <h1 class="subscribe">subscribe</h1>
+            <footer class="footer">
+                <div class="contact-info">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>info@gmail.com</li>
+                        <li>support.com</li>
+                        <li>1278893712</li>
+                    </ul>
+
+
+                </div>
+                <div class="social-media">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>
+                            <a href="#">News & update </a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Carrer</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="terms">
+                    <h3>Terms & Policy</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Privacy policy </a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of use</a>
+                        </li>
+                        <li>
+                            <a href="#">Accessibility</a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+
+    </section>
+    <!-- js -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
